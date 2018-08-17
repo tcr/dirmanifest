@@ -1,0 +1,16 @@
+[package]
+authors = ["Tim Ryan <id@timryan.org>"]
+name = "dirmanifest"
+version = "0.1.0"
+
+[dependencies]
+failure = "*"
+crossbeam-channel = "*"
+ignore = "0.4.2"
+num_cpus = "1.8.0"
+csv = "*"
+serde = "*"
+serde_derive = "*"
+
+[profile.release]
+opt-level = 1
